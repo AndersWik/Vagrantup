@@ -1,0 +1,5 @@
+.DS_Store
+.vagrant
+public_html
+/Vagrantfile
+ubuntu-xenial-16.04-cloudimg-console.log
