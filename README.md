@@ -6,9 +6,15 @@ Bash script that will create a Vagrant file.
 ./vagrantup cms url
 ```
 
-Available options:
+## Dependencies
 
-* wordpress
+* Virtualbox
+* Vagrant
+
+## Options:
+
+* `lamp`      Will setup a lamp server.
+* `wordpress` Will setup a lamp server and download/install wordpress.
 
 Example:
 
