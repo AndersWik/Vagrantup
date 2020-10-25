@@ -28,6 +28,15 @@ if [[ -d "./${TYPE}" ]]; then
         else
             echo "${vagrantfile//vagranturl/$URL}" >> Vagrantfile
             mkdir -p "./public_html"
+
+            if [[ -d "./${TYPE}/configuration" ]]; then
+
+                echo "Found configuration folder for $TYPE"
+                cp -R "./${TYPE}/configuration"/* "./public_html/"
+
+            else
+                echo "Found no configuration folder for $TYPE"
+            fi
         fi
     else
         echo "$TYPE have no Vagrant file"

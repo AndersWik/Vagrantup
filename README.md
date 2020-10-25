@@ -15,6 +15,7 @@ Bash script that will create a Vagrant file.
 
 * `lamp`      Will setup a lamp server.
 * `wordpress` Will setup a lamp server and download/install wordpress.
+* `elasticsearch` Will setup a Ubuntu server with Elasticsearch installed.
 
 Example:
 
