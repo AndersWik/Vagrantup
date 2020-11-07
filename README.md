@@ -33,6 +33,12 @@ This will create a Vagrant file for Ubuntu Xenial64 with:
 
 It will also add a VirtualHost for the submited url.
 
+## Development
+
+We can add additional files that can be referenced in the provisioning script. Create a `configuration` folder as a subdirectory to the option folder. In this folder put all files that the script needs.
+
+The files will be copied to the Vagrant synced folder and available in the Vagrant provision script.
+
 ## Versioning
 
 This project uses Semantic versioning
